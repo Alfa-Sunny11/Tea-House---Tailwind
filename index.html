@@ -15,13 +15,17 @@
       <script src="https://kit.fontawesome.com/f2e96636a2.js" crossorigin="anonymous"></script>
       <!-- Tailwind CDN -->
       <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-      <style type="text/tailwindcss"> @theme {
-        --color-clifford: #da373d;
-    }
-</style>
+      <style type="text/tailwindcss">
+            @theme {
+            --color-clifford: #da373d;
+            --manrope {
+                  font-family: "Manrope", sans-serif;
+}
+      }
+    </style>
 </head>
 
-<body>
+<body class="font-[--manrope]">
       <!-- Main Content -->
       <main class="max-w-screen-xl mx-auto px-16 lg:px-28">
             <!-- Header Section -->
@@ -33,7 +37,7 @@
                         <p class="text-gray-500 w-3/4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
                               Your Taste Buds.</p><br>
                         <button
-                              class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-5 rounded-lg text-white font-bold">Explore
+                              class="bg-gradient-to-r from-orange-500 to-red-500 px-5 py-5 rounded-lg text-white font-bold hover:-translate-y-1 hover:scale-110  transition delay-100 duration-250 ease-in-out">Explore
                               More <i class="fa-solid fa-arrow-right -rotate-45 text-xl"></i></i></button>
                   </div>
                   <!-- Image content -->
@@ -66,7 +70,7 @@
                   </div>
                   <!-- grid card -->
                   <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 text-center">
-                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 transition delay-100 duration-250 ease-in-out">
                               <img class="mx-auto pt-4" src="images/tea-1.png" alt="">
                               <div class="p-4">
                                     <h2 class="font-bold text-xl">Milk Tea</h2>
@@ -74,7 +78,7 @@
                               </div>
                         </div>
 
-                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 transition delay-100 duration-250 ease-in-out">
                               <img class="mx-auto pt-4" src="images/tea-2.png" alt="">
                               <div class="p-4">
                                     <h2 class="font-bold text-xl">Black Tea</h2>
@@ -82,7 +86,7 @@
                               </div>
                         </div>
 
-                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 transition delay-100 duration-250 ease-in-out">
                               <img class="mx-auto pt-4" src="images/tea-3.png" alt="">
                               <div class="p-4">
                                     <h2 class="font-bold text-xl">Lemon Tea</h2>
@@ -90,7 +94,7 @@
                               </div>
                         </div>
 
-                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden">
+                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 transition delay-100 duration-250 ease-in-out">
                               <img class="mx-auto pt-4" src="images/tea-4.png" alt="">
                               <div class="p-4">
                                     <h2 class="font-bold text-xl">Green Tea</h2>
@@ -105,14 +109,14 @@
                   <div class="grid grid-cols-1 lg:grid-cols-2">
                         <!-- img section -->
                         <div class="grid grid-cols-2 grid-rows-3 gap-4 lg:w-5/6">
-                              <div class="h-38 bg-gradient-to-r from-red-100 to-red-50 rounded-xl"></div>
-                              <div class="bg-orange-50 rounded-xl row-span-2">
+                              <div class="h-38 bg-gradient-to-r from-red-100 to-red-50 rounded-xl hover:-translate-y-1 hover:scale-110 transition delay-100 duration-250 ease-in-out"></div>
+                              <div class="bg-orange-50 rounded-xl row-span-2 hover:-translate-y-1 hover:scale-110 hover:bg-orange-100 transition delay-100 duration-250 ease-in-out">
                                     <img class="mx-auto my-5" src="images/fresh-1.png" alt="">
                               </div>
-                              <div class="bg-stone-200 rounded-xl row-span-2">
+                              <div class="bg-stone-200 rounded-xl row-span-2 hover:-translate-y-1 hover:scale-110 hover:bg-stone-300 transition delay-100 duration-250 ease-in-out">
                                     <img class="mx-auto my-5" src="images/fresh-2.png" alt="">
                               </div>
-                              <div class="h-38 bg-gradient-to-r from-stone-200 to-stone-100 rounded-xl"></div>
+                              <div class="h-38 bg-gradient-to-r from-stone-200 to-stone-100 rounded-xl hover:-translate-y-1 hover:scale-110 transition delay-100 duration-250 ease-in-out"></div>
                         </div>
 
                         <!-- Text Section -->
@@ -146,7 +150,7 @@
                                           majority have suffered alteration in some form, by injected humour, or
                                           randomised
                                           words which don't look even slightly believable. </p>
-                                    <button class="bg-white text-orange-700 px-4 py-2 rounded-lg mb-8">Show All</button>
+                                    <button class="bg-white text-orange-700 px-4 py-2 rounded-lg mb-8 hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 transition delay-100 duration-250 ease-in-out">Show All</button>
                               </div>
                         </div>
                         <!-- reviews card section -->
@@ -154,7 +158,7 @@
                               <!-- middle card -->
                               <div class="absolute z-10 top-44 md:top-55">
                                     <div
-                                          class=" h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5">
+                                          class=" h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 hover:-translate-y-1 hover:scale-110 transition delay-100 duration-250 ease-in-out">
                                           <div class="absolute -top-5 -left-5 bg-white rounded-full">
                                                 <img class="p-1" src="images/client.png" alt="">
                                           </div>
@@ -172,7 +176,7 @@
 
                               <!-- top card -->
                               <div
-                                    class="relative left-8 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40">
+                                    class="relative left-8 md:left-32 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40 hover:-translate-y-1 hover:scale-110 transition delay-100 duration-250 ease-in-out">
                                     <div class="absolute -top-5 -left-5 bg-white rounded-full">
                                           <img class="p-1" src="images/client.png" alt="">
                                     </div>
@@ -187,7 +191,7 @@
 
                               <!-- bottom Card -->
                               <div
-                                    class="relative left-8 md:left-32 top-10 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40">
+                                    class="relative left-8 md:left-32 top-10 h-56 w-full md:w-3/4 bg-white text-black rounded-lg flex items-center px-5 opacity-40 hover:-translate-y-1 hover:scale-110 transition delay-100 duration-250 ease-in-out">
                                     <div class="absolute -top-5 -left-5 bg-white rounded-full">
                                           <img class="p-1" src="images/client.png" alt="">
                                     </div>
@@ -204,7 +208,50 @@
             </section>
 
             <!-- News & Events Section -->
-            <section></section>
+            <section class="mb-8">
+                  <!-- Title section -->
+                  <div class="text-center mb-8">
+                        <h1 class="text-3xl md:text-4xl font-bold mb-5">News & Events</h1>
+                        <p class="text-gray-600 max-w-xl mx-auto">There are many variations of passages of Lorem Ipsum
+                              available, but the majority have suffered alteration in some form, by injected humour, or
+                              randomised words which don't look even slightly believable. </p>
+                  </div>
+                  <!-- grid card -->
+                  <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 text-center">
+                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden hover:shadow-lg hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 transition delay-100 duration-250 ease-in-outg">
+                              <img class="mx-auto pt-4" src="images/news-1.png" alt="">
+                              <div class="p-4">
+                                    <h2 class="text-gray-600 text-start mt-1 mb-1">Nov 15, 2025</h2>
+                                    <h2 class="font-bold text-xl text-start">Collecting 8 points for<br>discount</h2>
+                                    <p class="text-gray-600 text-start mt-2">There are many variations of passages<br>of
+                                          Lorem Ipsum available.</p>
+                                    <p class="text-start mt-2 hover:text-blue-500">Learn More</p>
+                              </div>
+                        </div>
+
+                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden hover:shadow-lg hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 transition delay-100 duration-250 ease-in-out">
+                              <img class="mx-auto pt-4" src="images/news-2.png" alt="">
+                              <div class="p-4">
+                                    <h2 class="text-gray-600 text-start mt-1 mb-1">Nov 15, 2025</h2>
+                                    <h2 class="font-bold text-xl text-start">Collecting 8 points for<br>discount</h2>
+                                    <p class="text-gray-600 text-start mt-2">There are many variations of passages<br>of
+                                          Lorem Ipsum available.</p>
+                                    <p class="text-start mt-2 hover:text-blue-500">Learn More</p>
+                              </div>
+                        </div>
+
+                        <div class="rounded-lg shadow-md bg-gray-50 overflow-hidden hover:shadow-lg hover:-translate-y-1 hover:scale-110 hover:bg-indigo-100 transition delay-100 duration-250 ease-in-out">
+                              <img class="mx-auto pt-4" src="images/news-3.png" alt="">
+                              <div class="p-4">
+                                    <h2 class="text-gray-600 text-start mt-1 mb-1">Nov 15, 2025</h2>
+                                    <h2 class="font-bold text-xl text-start">Collecting 8 points for<br>discount</h2>
+                                    <p class="text-gray-600 text-start mt-2">There are many variations of passages<br>of
+                                          Lorem Ipsum available.</p>
+                                    <p class="text-start mt-2 hover:text-blue-500">Learn More</p>
+                              </div>
+                        </div>
+                  </div>
+            </section>
 
       </main>
       <!-- Footer Section -->
@@ -216,7 +263,7 @@
                         <div class="flex items-center gap-3">
                               <h4>Ready to get started?</h4>
                               <button
-                                    class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 rounded-lg text-white font-bold">Get
+                                    class="bg-gradient-to-r from-orange-500 to-red-500 px-3 py-2 rounded-lg text-white font-bold hover:-translate-y-1 hover:scale-110 transition delay-100 duration-250 ease-in-out">Get
                                     Started</button>
                         </div>
                   </div>
@@ -284,19 +331,19 @@
                                                 class="fa-solid fa-chevron-right w-7 h-7 bg-orange-600 inline-flex rounded-full justify-center items-center text-white"></i>
                                     </div>
                                     <div class="flex justify-between w-2/5 mb-2 mt-8">
-                                          <i class="fa-brands fa-facebook"></i>
-                                          <i class="fa-brands fa-square-instagram"></i>
-                                          <i class="fa-brands fa-square-twitter"></i>
+                                          <i class="fa-brands fa-facebook hover:-translate-y-1 hover:scale-110 transition delay-100 duration-250 ease-in-out"></i>
+                                          <i class="fa-brands fa-square-instagram hover:-translate-y-1 hover:scale-110 transition delay-100 duration-250 ease-in-out"></i>
+                                          <i class="fa-brands fa-square-twitter hover:-translate-y-1 hover:scale-110 transition delay-100 duration-250 ease-in-out"></i>
 
                                     </div>
 
                               </div>
                         </div>
                   </div>
-                                          <!-- copy write -->
-                         <div class="text-center pt-4 mt-4">
-                              <p class="text-sm text-gray-600">© 2027 UIDesign.to - All rights reserved.</p>
-                         </div>
+                  <!-- copy write -->
+                  <div class="text-center pt-4 mt-4">
+                        <p class="text-sm text-gray-600">© 2025 Alfa Sunny - All rights reserved.</p>
+                  </div>
             </div>
       </footer>
 </body>
